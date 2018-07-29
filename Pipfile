@@ -1,0 +1,17 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[packages]
+requests = "*"
+lxml = "*"
+selenium = "*"
+matplotlib = "*"
+wordcloud = {path = ".\\packages\\wordcloud-1.4.1-cp35-cp35m-win32.whl"}
+jieba = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"
